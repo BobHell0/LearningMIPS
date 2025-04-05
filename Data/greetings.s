@@ -2,7 +2,7 @@
 .data
 age:        .word 0
 ask_name:   .asciiz "What is your name and age?\n"
-hello:      .asciiz "Hello \n"
+hello:      .asciiz "Hello "
 nice_meet:  .asciiz ", nice to meet you!\n"
 
 name        .space 30
