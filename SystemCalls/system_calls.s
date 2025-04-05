@@ -25,7 +25,7 @@ main:
     syscall
 
     # ...name"
-    li      $v0, 4
+    # no need to load 4 into $v0 because $v0 is unaltered since last syscall
     la      $a0, name
     syscall
 
